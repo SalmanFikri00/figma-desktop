@@ -1,0 +1,19 @@
+{
+  "name": "figma-desktop",
+  "version": "1.0.0",
+  "description": "simple figma desktop by fikri with electron",
+  "main": "main.js",
+  "author": "SalmanFikri00",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . --overwrite --platform-win32 --arch=x64 --icon=assets/icon.ico --prune=true --out=release-builds"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^30.0.3"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
